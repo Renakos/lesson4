@@ -14,14 +14,22 @@
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="40dp">
+
         <ImageView
+            android:id="@+id/imageView1"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/Image"
-            android:id="@+id/imageView1"
+
             android:scaleType="centerCrop"
-            android:layout_margin="50dp" />
+            android:src="@drawable/Image" />
+    </androidx.cardview.widget.CardView>
     <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
